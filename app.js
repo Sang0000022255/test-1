@@ -1,3 +1,8 @@
+// Thêm Firebase SDK
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js";
+
+// Thêm cấu hình Firebase
 // Cấu hình Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyAg7HbLCCLoFwwQmDLLjK-sqBTcbp6hSQo",
